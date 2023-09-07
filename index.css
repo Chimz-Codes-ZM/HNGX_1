@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .heading_1 {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+  }
+  
+  #slackUserName {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  #slack_Display_Image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+  }
+  
+
+  .current_Time {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+
+  .track {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+
+  @media (max-width: 600px) {
+    .heading_1 {
+      max-width: 90%;
+    }
+  }
+  
