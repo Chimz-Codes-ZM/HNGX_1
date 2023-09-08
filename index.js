@@ -18,14 +18,15 @@ document.addEventListener("DOMContentLoaded", function () {
     const currentHours = new Date().getUTCHours();
     const currentMinutes = new Date().getUTCMinutes();
     const currentSeconds = new Date().getUTCSeconds();
+    const currentMilliseconds = new Date().getUTCMilliseconds()
 
-    const currentUTCTime = `${currentHours}:${currentMinutes}:${currentSeconds}`;
+    const currentUTCTime = `${currentHours}:${currentMinutes}:${currentSeconds}:${currentMilliseconds}`;
 
     document.getElementById("current_UTC_Time").textContent = currentUTCTime;
   };
 
   updateCurrentUTCTime();
 
-  setInterval(updateCurrentUTCTime, 1000);
+  setInterval(updateCurrentUTCTime, 100);
   // Current time
 });
